@@ -11,6 +11,8 @@ import ToasterProvider from "./providers/ToasterProvider"
 import getCurrentUser from "./actions/getCurrentUser"
 import SearchModal from './components/modals/SearchModal'
 
+export const dynamic = 'force-dynamic'
+
 const font = Nunito({ 
   subsets: ['latin'] 
 })
